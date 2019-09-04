@@ -3,7 +3,7 @@
   position: relative;
 }
 
-img {
+#background {
   width: 100%;
   z-index: -1;
   position: absolute;
@@ -17,6 +17,7 @@ img {
   flex-direction: column;
 }
 
-#top {
+#app {
   height: 523px;
+  z-index: 10;
 }
